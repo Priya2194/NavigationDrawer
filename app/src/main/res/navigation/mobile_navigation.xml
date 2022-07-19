@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navigationdrawer.ui.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_msg"
+        android:name="com.example.navigationdrawer.ui.MessagesFragment"
+        android:label="Message"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/nav_sync"
+        android:name="com.example.navigationdrawer.ui.SyncFragment"
+        android:label="Sync"
+        tools:layout="@layout/fragment_sync" />
+
+    <fragment
+        android:id="@+id/nav_trash"
+        android:name="com.example.navigationdrawer.ui.TrashFragment"
+        android:label="Trash"
+        tools:layout="@layout/fragment_trash" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.navigationdrawer.ui.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.navigationdrawer.ui.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.navigationdrawer.ui.ShareFragment"
+        android:label="Share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_rate"
+        android:name="com.example.navigationdrawer.ui.RateUsFragment"
+        android:label="Rate Us"
+        tools:layout="@layout/fragment_rate_us" />
+</navigation>
